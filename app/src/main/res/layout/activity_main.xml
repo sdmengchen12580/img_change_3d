@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bihucj.mcandroid.ui.MainActivity">
+
+    <com.bihucj.mcandroid.view.Image3DSwitchView
+        android:id="@+id/image_switch_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <com.bihucj.mcandroid.view.Image3DView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="@dimen/_5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/img" />
+
+        <com.bihucj.mcandroid.view.Image3DView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="@dimen/_5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/img" />
+
+        <com.bihucj.mcandroid.view.Image3DView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="@dimen/_5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/img" />
+
+        <com.bihucj.mcandroid.view.Image3DView
+            android:id="@+id/image4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="@dimen/_5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/img" />
+
+        <com.bihucj.mcandroid.view.Image3DView
+            android:id="@+id/image5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="@dimen/_5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/img" />
+    </com.bihucj.mcandroid.view.Image3DSwitchView>
+
+
+    <Button
+        android:id="@+id/bt_change_img"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50dp"
+        android:layout_marginTop="@dimen/_50dp"
+        android:text="切换容器的显示位置" />
+
+
+</LinearLayout>
